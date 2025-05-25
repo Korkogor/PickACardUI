@@ -25,6 +25,13 @@ namespace PickACardUI
         //Создан метод для подбора "веса" карт
         private static string RandomValue()
         {
+            //Random random = new Random();
+            //double[] randomDoubles = new double[20];
+            //for (int i = 0; i < 20; i++)
+            //{
+            //    double number = random.NextDouble();
+            //    randomDoubles [i] = number;
+            //}
             int value = Random.Next(1, 14); // получить случайное число от 1 до 13
             if (value == 1) return "Ace"; // если это единица - вернуть "Туз"
             if (value == 11) return "Jack"; // если это 11 - вернуть "Валет"
