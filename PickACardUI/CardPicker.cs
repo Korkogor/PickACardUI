@@ -54,4 +54,8 @@ namespace PickACardUI
             return "Diamonds";
         }
     }
+    //public class Level {
+    //    Enemy[] enemyArray = new Enemy[3];
+
+    //}
 }
